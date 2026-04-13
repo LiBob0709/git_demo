@@ -1,0 +1,13 @@
+container:
+  port: 80
+  resources:
+    requests:
+      cpu: 50m
+      memory: 480Mi
+    limits:
+      cpu: 1
+      memory: 1000Mi
+
+service:
+  port: 80
+
